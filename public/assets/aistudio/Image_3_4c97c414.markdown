@@ -1,0 +1,219 @@
+---
+name: Emerald & Cream Atelier
+colors:
+  surface: '#faf9f4'
+  surface-dim: '#dbdad5'
+  surface-bright: '#faf9f4'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f5f4ef'
+  surface-container: '#efeee9'
+  surface-container-high: '#e9e8e3'
+  surface-container-highest: '#e3e3de'
+  on-surface: '#1b1c19'
+  on-surface-variant: '#404846'
+  inverse-surface: '#30312e'
+  inverse-on-surface: '#f2f1ec'
+  outline: '#717976'
+  outline-variant: '#c0c8c4'
+  surface-tint: '#3b665c'
+  primary: '#00261f'
+  on-primary: '#ffffff'
+  primary-container: '#0f3d34'
+  on-primary-container: '#7ca89c'
+  inverse-primary: '#a2d0c3'
+  secondary: '#31685c'
+  on-secondary: '#ffffff'
+  secondary-container: '#b2ebdc'
+  on-secondary-container: '#356c60'
+  tertiary: '#2c1f00'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#473300'
+  on-tertiary-container: '#b99b5e'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#beecdf'
+  primary-fixed-dim: '#a2d0c3'
+  on-primary-fixed: '#00201a'
+  on-primary-fixed-variant: '#234e44'
+  secondary-fixed: '#b5eedf'
+  secondary-fixed-dim: '#9ad2c3'
+  on-secondary-fixed: '#00201a'
+  on-secondary-fixed-variant: '#154f44'
+  tertiary-fixed: '#ffdf9f'
+  tertiary-fixed-dim: '#e3c281'
+  on-tertiary-fixed: '#261a00'
+  on-tertiary-fixed-variant: '#5a430e'
+  background: '#faf9f4'
+  on-background: '#1b1c19'
+  surface-variant: '#e3e3de'
+typography:
+  display-hero:
+    fontFamily: Playfair Display
+    fontSize: 64px
+    fontWeight: '600'
+    lineHeight: 72px
+    letterSpacing: -0.02em
+  display-hero-mobile:
+    fontFamily: Playfair Display
+    fontSize: 38px
+    fontWeight: '600'
+    lineHeight: 46px
+    letterSpacing: -0.01em
+  headline-lg:
+    fontFamily: Playfair Display
+    fontSize: 44px
+    fontWeight: '600'
+    lineHeight: 52px
+    letterSpacing: -0.015em
+  headline-lg-mobile:
+    fontFamily: Playfair Display
+    fontSize: 30px
+    fontWeight: '600'
+    lineHeight: 38px
+    letterSpacing: -0.01em
+  headline-md:
+    fontFamily: Playfair Display
+    fontSize: 32px
+    fontWeight: '500'
+    lineHeight: 40px
+  headline-sm:
+    fontFamily: Playfair Display
+    fontSize: 24px
+    fontWeight: '500'
+    lineHeight: 32px
+  title-md:
+    fontFamily: Playfair Display
+    fontSize: 20px
+    fontWeight: '600'
+    lineHeight: 28px
+  body-lg:
+    fontFamily: Inter
+    fontSize: 18px
+    fontWeight: '400'
+    lineHeight: 28px
+  body-md:
+    fontFamily: Inter
+    fontSize: 15px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-sm:
+    fontFamily: Inter
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 20px
+  label-lg:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '600'
+    lineHeight: 20px
+    letterSpacing: 0.06em
+  label-md:
+    fontFamily: Inter
+    fontSize: 12px
+    fontWeight: '500'
+    lineHeight: 16px
+    letterSpacing: 0.08em
+  price-tag:
+    fontFamily: Playfair Display
+    fontSize: 22px
+    fontWeight: '600'
+    lineHeight: 26px
+    letterSpacing: 0.02em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  gutter-mobile: 1rem
+  margin: 3rem
+  margin-mobile: 1.25rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+  space-2xl: 4rem
+  space-3xl: 6rem
+---
+
+## Brand & Style
+
+This design system embodies the sensory artistry of an haute patisserie: patient craft, rich tactile indulgence, and uncompromising European refinement. Guided by the ethos *"Baked slow. Finished beautifully,"* the aesthetic bridges timeless culinary tradition with contemporary editorial poise.
+
+The visual style blends luxury editorial minimalism with bespoke tactile accents:
+- **Atmospheric Warmth:** Cream-tinted foundations replace sterile whites, cultivating an inviting salon experience reminiscent of parchment, dusted flour, and warm marble counters.
+- **Opulent Framing:** Deep jewel-toned emerald anchors structure and narrative depth, while burnished gold serves as an exacting, restrained accent reserved for price distinctions, delicate hairline borders, and heirloom emblems.
+- **Editorial Pace:** Expansive macro-whitespace, generous breathing room around photography, and disciplined typography invoke the serenity of an archival fine-dining menu.
+
+## Colors
+
+The palette establishes an immediate tension between the deep, velvety saturation of aged botanical glasshouses and the soft, whipped levity of patisserie creams.
+
+### Core Roles
+- **Primary (`#0F3D34` — Emerald Deep):** The core grounding anchor. Applied to primary CTAs, high-impact dark hero banners, footer foundations, and display headlines on light backdrops.
+- **Secondary (`#134E43` — Emerald):** Expressive depth layer. Utilized for interactive states, card surfaces in high-contrast groupings, and tertiary containers.
+- **Tertiary (`#C8A96A` — Gold):** Precision luxury accent. Reserved strictly for artisanal seals, currency values, divider filigrees, focus highlights, and bespoke tags. Never deployed for large text blocks or dominant backgrounds.
+- **Neutral Surface (`#F7F6F1` — Cream):** The global default canvas. Provides natural warmth, eliminating blue-light glare and framing product photography with an organic, linen-like comfort. Also acts as text color across dark emerald sections.
+- **Neutral Container (`#E6F0E9` — Mint):** Soft contextual tint used for alternate carousel panels, inset product spec sheets, and secondary card containers.
+
+## Typography
+
+Typography establishes an intentional dialogue between classical French pastry menus and high-clarity transactional design:
+- **Playfair Display (Headings, Display, & Prices):** Carries the lyrical, high-contrast personality of historical gastronomy. Used with tight negative tracking on major headlines to command visual gravitas. It brings artisanal character to menu items, collection titles, and standalone prices.
+- **Inter (Body, Meta, & Labels):** Acts as the neutral, utilitarian counterweight. Crisp apertures ensure legible ingredient lists, allergen notes, and checkout interactions across all screen densities.
+- **Labels & Micro-copy:** Uppercase with wide tracking (`0.06em` to `0.08em`) to mimic embossed gold-foil packaging seals and boutique tier stamps.
+
+## Layout & Spacing
+
+The layout operates on a fluid 12-column grid system bounded by generous exterior margins to preserve the feel of an upscale art publication:
+- **Desktop (1024px+):** 12-column grid, max content container width of 1320px, 48px outer canvas margins, and 24px column gutters. Section transitions deploy generous vertical spacing (`space-2xl` to `space-3xl`) to let hero pastries breathe.
+- **Tablet (768px - 1023px):** 8-column grid, 32px canvas margins, and 20px gutters. Content cards reflow from 3 or 4 columns down to 2 columns.
+- **Mobile (320px - 767px):** 4-column grid, 20px margins, and 16px gutters. Product listings stack vertically or scroll along horizontal edge-to-edge carousels with peek pagination.
+
+## Elevation & Depth
+
+Depth is tactile and organic rather than mechanical, avoiding stark dropshadows in favor of soft, luminous light passes:
+- **Golden Ambient Glows:** Elevated elements (such as featured seasonal tasting boxes and cart drawers) cast diffused, warm ambient shadows: `0px 12px 32px -4px rgba(15, 61, 52, 0.08), 0px 4px 12px -2px rgba(200, 169, 106, 0.12)`.
+- **Gilded Hairline Outlines:** Floating panels, dialogs, and cards are outlined with delicate 1px borders using `rgba(200, 169, 106, 0.35)` on dark backgrounds and `rgba(200, 169, 106, 0.45)` on light backgrounds.
+- **Tonal Layering:** Visual hierarchy relies on surface nesting—Cream base backgrounds stack Mint cards, which contain Emerald Deep callouts and burnished gold badges.
+
+## Shapes
+
+The form language echoes smooth pastry glazes, rounded ganache cuts, and handcrafted confection molds:
+- **Cards & Surfaces (`rounded-2xl` / 1.5rem / 24px):** Product cards, interactive modals, and imagery containers feature soft, sweeping corners.
+- **Buttons & Chips (Pill-shaped / 9999px):** Action elements use full-pill contours, providing an inviting, tactile contrast against rectangular content blocks.
+- **Image Cutouts:** Signature baked goods leverage gentle arching crowns or soft rounded corners to evoke custom gift packaging and bakery cloches.
+
+## Components
+
+### Buttons
+- **Primary Button:** Background in Emerald Deep (`#0F3D34`), text in Cream (`#F7F6F1`) with Inter semi-bold typography, full pill radius, and padding `14px 28px`. Subtle hairline border in Gold (`rgba(200, 169, 106, 0.4)`). Hover state shifts surface to Emerald (`#134E43`) with an expanded warm gold shadow.
+- **Secondary / Gilded Button:** Transparent background, 1.5px border in Gold (`#C8A96A`), text in Emerald Deep (`#0F3D34`). Hover fills background with Mint (`#E6F0E9`).
+- **Dark Section Button:** Gold (`#C8A96A`) solid background with Emerald Deep text for prominent conversion points on dark hero or footer areas.
+
+### Cards
+- **Product & Tasting Cards:** Surface in Mint (`#E6F0E9`) or Pure White over Cream, corner radius `rounded-2xl` (24px), enclosed by a 1px border of `rgba(200, 169, 106, 0.35)`. Contains generous internal padding (`space-lg`), high-resolution product photography, item titles in Playfair Display, and price tags highlighted in Gold.
+- **Hero & Curated Feature Cards:** Dark Emerald Deep (`#0F3D34`) canvas with Cream text, gold leaf divider rules, and full-bleed macro photography.
+
+### Chips & Badges
+- **Artisanal Badges:** Used for 'Single Origin', 'Batch Reserve', or 'Gluten-Friendly'. Rendered as compact pill containers with a Mint background, 1px Gold border, and uppercase tracked text in Emerald Deep.
+- **Dietary & Tasting Filters:** Outlined pills with 1px border (`#C8A96A`). Selected state fills with Emerald Deep and switches label to Cream.
+
+### Lists & Menus
+- **Patisserie Ledger:** Traditional French menu style. Left-aligned pastry name in Playfair Display and flavor notes in Inter, followed by an elegant dotted gold baseline leader connecting directly to right-aligned gold pricing.
+
+### Checkboxes & Radios
+- **Selection Controls:** Custom circular geometry with a 1.5px Gold outline. Active state features a smooth inner dot in Emerald Deep against a Mint bed.
+
+### Input Fields
+- **Bespoke Fields:** Background in pure Cream or white, 1px border in `rgba(15, 61, 52, 0.2)`. Focus transitions the border to solid Gold (`#C8A96A`) paired with a subtle `0 0 0 3px rgba(200, 169, 106, 0.2)` glow. Labels rest above in uppercase Inter (`label-md`).
+
+### Additional Signature Components
+- **Flourish Dividers:** Hairline rules featuring a centered miniature diamond or botanical pastry emblem in Gold.
+- **Bespoke Ribbon Seal:** A floating circular seal (`#C8A96A` background, `#0F3D34` text) reading 'Baked Slow' positioned over top-tier gifting sets.

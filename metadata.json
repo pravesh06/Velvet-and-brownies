@@ -1,0 +1,6 @@
+{
+  "name": "Velvet & Brownies | Haute Artisan Patisserie",
+  "description": "Artisanal handcrafted celebration cakes, fudgy molten brownies, and delicate French pastries made fresh daily with single-origin cocoa and European butter.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
