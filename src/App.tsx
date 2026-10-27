@@ -296,7 +296,7 @@ export default function App() {
   const grandTotal = Math.max(0, subtotal - discount + deliveryCost);
 
   return (
-    <div className="min-h-screen bg-[#faf9f4] dark:bg-[#070e0c] font-sans text-[#1b1c19] dark:text-[#f4f1ea] selection:bg-[#b2ebdc] selection:text-[#356c60] transition-colors duration-300">
+    <div className="min-h-screen bg-[#faf9f4] dark:bg-[#070e0c] font-sans text-[#1b1c19] dark:text-[#f4f1ea] selection:bg-[#b2ebdc] selection:text-[#356c60] transition-colors duration-300 pb-20 xl:pb-0">
       {/* 0. HAUTE PATISSERIE LOADING SCREEN */}
       {isLoading && (
         <LoadingScreen onComplete={() => setIsLoading(false)} />
