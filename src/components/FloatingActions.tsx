@@ -19,7 +19,7 @@ export const FloatingActions: React.FC = () => {
     <aside className="fixed bottom-22 sm:bottom-24 xl:bottom-6 right-4 sm:right-6 z-30 flex flex-col items-end gap-2.5 sm:gap-3 pointer-events-none transition-all duration-300">
       {/* WhatsApp Concierge Trigger */}
       <a
-        href="https://wa.me/?text=Hello%20Velvet%20%26%20Brownies%2C%20I%20would%20like%20to%20inquire%20about%20a%20patisserie%20order"
+        href="https://wa.me/9198220984?text=Hello%20Velvet%20%26%20Brownies%2C%20I%20would%20like%20to%20inquire%20about%20a%20patisserie%20order"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Chat with Atelier Concierge on WhatsApp"
